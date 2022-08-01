@@ -1,0 +1,41 @@
+*{
+    margin:auto;    
+}
+body{
+    background-image: url("Train.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    text-align: center;
+    color:aqua;
+}
+.content{
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    width:50%; 
+    font-size:2rem;
+    font-weight: bold;
+    height: 28rem;;
+    border-radius: 1rem;   
+    padding:3rem;
+    background:linear-gradient(rgba(205, 215, 65, 0.5),hsl(273, 34%, 35%));    
+}
+button{   
+    color:antiquewhite;
+    padding:10px 14px;
+    font-size: 2rem;
+    border:none;
+    border-radius: 7px;
+    cursor:pointer;
+    font-weight: bold;
+}
+button:hover{
+transform:scale(0.98);
+}
+#increment{
+    background-color: rgb(57, 57, 149);
+}
